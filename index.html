@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Korean American Student Association</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-animate.js"></script>
+        <script src="jquery-3.2.1.min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+       
+        
+    </head>
+    <body ng-app="kasaApp">
+        
+        <!--Navigation bar hamburger-->
+        <div class='navbar-toggle' title='Menu'>
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+        <nav class="nav-hide">
+          <ul>
+            <li class="home-list"><a href="#/" class="slide-section" onclick=scrollFunction()>Home</a></li>
+            <li class="about-list"><a href="#/about" class="slide-section" onclick=scrollFunction()>About Us</a></li>
+            <li class="officers-list"><a href="#/officers" class="slide-section" onclick=scrollFunction()>Officer</a></li>
+            <li class="gallery-list"><a href="#/gallery" class="slide-section" onclick=scrollFunction()>Gallery</a></li>
+            <li class="events-list"><a href="#/events" class="slide-section" onclick=scrollFunction()>Events</a></li>
+            <li class="contacts-list"><a href="#/contacts" class="slide-section" onclick=scrollFunction()>Contact Us</a></li>
+          </ul>
+        </nav>
+        
+        <!--LOGO Picture-->
+        <div id="logo" >
+            <div class="one"><a href="#/"><img class="cdprlogo" id="cdpr" src="img/kasalogo.png" width="35%" height="10%"/></a></div>
+        </div>
+      
+        <!--Navigation bar-->
+        
+        <div id="menu" class="topnav">
+            <a href="#/" class="hvr-bounce-to-bottom" id="slide-section1" onclick=scrollFunction()>Home</a>
+            <a href="#/about" class="hvr-bounce-to-bottom" id="slide-section2" onclick=scrollFunction()>About</a>
+            <a href="#/officers" class="hvr-bounce-to-bottom" id="slide-section3" onclick=scrollFunction()>Officers</a>
+            <a href="#/gallery" class="hvr-bounce-to-bottom" id="slide-section4" onclick=scrollFunction()>Gallery</a>
+            <a href="#/events" class="hvr-bounce-to-bottom" id="slide-section5" onclick=scrollFunction()>Events</a>
+            <a href="#/contacts" class="hvr-bounce-to-bottom" id="slide-section6" onclick=scrollFunction()>Contact Us</a>
+        </div>
+        
+        <!--Dummy navigation bar-->
+        <div class="dummynav"></div>
+        
+		<!-- AngularJS view -->
+        <div ng-view class="mainview-animation"></div>
+       
+    </body>
+    <!--<script src="main.js"></script>-->
+</html>
