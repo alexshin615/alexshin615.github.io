@@ -363,6 +363,7 @@ nav a:hover {
     animation: fadeIn;
     -webkit-animation-duration: 2s;
     text-align: center;
+    
 }
 
 .flyers{
@@ -411,6 +412,7 @@ ABOUT PAGE
     padding: 20px;
     overflow: hidden;
     background-color: #f0802b;
+    box-shadow: 0px 30px 50px -25px rgba(0, 0, 0, 1);
 }
 
 .about-stuff img{
@@ -418,21 +420,21 @@ ABOUT PAGE
     height:400px; 
     float: left; 
     margin-right: 15px; 
-    animation: fadeInLeft;
+    animation: fadeIn;
     -webkit-animation-duration:2s;
     -moz-animation-duration: 2s;
     -o-animation-duration: 2s;
     animation-duration: 2s;
 }
 .about-stuff h1{
-    animation: fadeInDown;
+    animation: fadeIn;
     -webkit-animation-duration: 2s;
     -moz-animation-duration: 2s;
     -o-animation-duration: 2s;
     animation-duration: 2s;
 }
 .about-stuff p{
-    animation: fadeInRight;
+    animation: fadeIn;
     -webkit-animation-duration: 2s;
     -moz-animation-duration: 2s;
     -o-animation-duration: 2s;
@@ -448,27 +450,28 @@ ABOUT PAGE
     padding: 20px;
     overflow: hidden;
     background-color: #d7f4ff;
+    box-shadow: 0px 30px 50px -25px rgba(0, 0, 0, 1);
 }
 .about-stuff2 img{
     width: 320px;
     height:400px; 
     float: right; 
     margin-left: 15px;    
-    animation: fadeInRight;
+    animation: fadeIn;
     -webkit-animation-duration:3s;
     -moz-animation-duration: 3s;
     -o-animation-duration: 3s;
     animation-duration: 3s;
 }
 .about-stuff2 h1{
-    animation: fadeInDown;
+    animation: fadeIn;
     -webkit-animation-duration: 3s;
     -moz-animation-duration: 3s;
     -o-animation-duration: 3s;
     animation-duration: 3s;
 }
 .about-stuff2 p{
-    animation: fadeInLeft;
+    animation: fadeIn;
     -webkit-animation-duration: 3s;
     -moz-animation-duration: 3s;
     -o-animation-duration: 3s;
@@ -483,6 +486,7 @@ ABOUT PAGE
     padding: 20px;
     overflow: hidden;
     background-color: #0078a8;
+    box-shadow: 0px 30px 50px -25px rgba(0, 0, 0, 1);
 }
 
 .about-stuff3 img{
@@ -490,21 +494,21 @@ ABOUT PAGE
     height:370px; 
     float: left; 
     margin-right: 15px;  
-    animation: fadeInLeft;
+    animation: fadeIn;
     -webkit-animation-duration: 4s;
     -moz-animation-duration: 4s;
     -o-animation-duration: 4s;
     animation-duration: 4s;
 }
 .about-stuff3 h1{
-    animation: fadeInDown;
+    animation: fadeIn;
     -webkit-animation-duration: 4s;
     -moz-animation-duration: 4s;
     -o-animation-duration: 4s;
     animation-duration: 4s;
 }
 .about-stuff3 p{
-    animation: fadeInRight;
+    animation: fadeIn;
     -webkit-animation-duration: 4s;
     -moz-animation-duration: 4s;
     -o-animation-duration: 4s;
@@ -520,6 +524,7 @@ ABOUT PAGE
     padding: 20px;
     overflow: hidden;
     background-color: #009fb2;
+    box-shadow: 0px 30px 50px -25px rgba(0, 0, 0, 1);
 }
 img.center{
     width: 50%;
@@ -527,7 +532,7 @@ img.center{
     display: block;
     margin-right: auto;
     margin-left: auto;
-    animation: fadeInDown;
+    animation: fadeIn;
     -webkit-animation-duration:3s;
     -moz-animation-duration: 3s;
     -o-animation-duration: 3s;
@@ -535,14 +540,14 @@ img.center{
 }
 
 .about-stuff4 h1{
-    animation: fadeInDown;
+    animation: fadeIn;
     -webkit-animation-duration: 3s;
     -moz-animation-duration: 3s;
     -o-animation-duration: 3s;
     animation-duration: 3s;
 }
 .about-stuff4 p{
-    animation: fadeInLeft;
+    animation: fadeIn;
     text-align: center;
     -webkit-animation-duration: 3s;
     -moz-animation-duration: 3s;
